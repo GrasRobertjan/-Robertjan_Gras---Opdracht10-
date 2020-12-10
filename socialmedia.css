@@ -1,0 +1,88 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body
+{height: 100%;
+    background-color: grey;
+}
+
+
+
+.icons
+{margin: 2px;
+position: fixed;
+top: 15%;
+right: 0%;
+width: 200px;
+display: flex;
+flex-direction: column;
+}
+
+.icons a
+{text-decoration: none;
+text-transform: uppercase;
+padding: 20px;
+font-size: 15px;
+font-family: cursive;
+margin: 2px;
+text-align: left;
+border-radius: 50px 0px 0px 50px;
+transform: translate(100px, 0px);
+transition: all 0,5s;
+}
+
+.icons a:hover
+{transform: translate(0px, 0px);}
+
+.icons a i{
+    margin-right: 10px;
+    background-color: white;
+    height: 40px;
+    width: 50px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    
+}
+
+.icons a:hover i
+{transform: rotate(30deg);}
+
+.icons a i.fa-facebook
+{color: #3b5998;}
+
+.icons a i.fa-twitter
+{color: #00aced;}
+
+.icons a i.fa-linkedin
+{color: #007bb6;}
+
+.icons a i.fa-blogger
+{color: #e17b77;}
+
+.icons a i.fa-github-square
+{color: #333;}
+
+.facebook
+{background-color: #3b5998;
+color: white;
+}
+
+.twitter
+{background-color:#00aced;
+color: white;}
+
+.linkedin{
+    background-color: #007bb6;
+    color: white;}
+.blog
+{background-color: #e17b77;
+color: white;}
+.github
+{background-color: #333;
+color: white;}
+
